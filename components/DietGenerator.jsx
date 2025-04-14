@@ -4,7 +4,7 @@ import { useRouter } from 'next/navigation'
 
 const openai = new OpenAI({
   baseURL: 'https://openrouter.ai/api/v1',
-  apiKey: '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',
+  apiKey: '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',
   dangerouslyAllowBrowser: 'true'// Make sure this is set in .env.local
 });
 
