@@ -1,10 +1,10 @@
 'use client';
 import OpenAI from "openai";
 import { useRouter } from 'next/navigation'
-
+const appiappi = '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'
 const openai = new OpenAI({
   baseURL: 'https://openrouter.ai/api/v1',
-  apiKey: process.env.SDK_KEY,
+  apiKey: appiappi,
   dangerouslyAllowBrowser: 'true'// Make sure this is set in .env.local
 });
 
